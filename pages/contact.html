@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Novatech — Contact</title>
+    <meta name="description" content="Contactez Novatech pour parler de votre projet web, cloud ou IA.">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style-enhancements.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner"><a class="logo" href="../index.html">Nova<span>tech</span></a><input type="checkbox"
+                id="menu-toggle" class="menu-toggle" aria-label="Ouvrir le menu"><label for="menu-toggle"
+                class="menu-button"><span></span></label>
+            <nav class="main-nav" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="apropos.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="equipe.html">Équipe</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="page-content">
+        <section class="page-hero">
+            <div class="container">
+                <p class="eyebrow">CONTACT</p>
+                <h1>Votre idée mérite une conversation.</h1>
+                <p class="lead">Présentez-nous votre projet. Cette maquette est fictive ; les coordonnées ci-dessous
+                    sont des exemples.</p>
+            </div>
+        </section>
+        <section class="section section-dark">
+            <div class="container two-col contact-layout">
+                <div>
+                    <p class="eyebrow">RESTONS EN CONTACT</p>
+                    <h2>Commençons par écouter votre idée.</h2>
+                    <p>Choisissez le moyen qui vous convient. Pour ce projet étudiant, les informations de contact ne
+                        représentent pas une entreprise réelle.</p>
+                    <div class="contact-detail"><span class="contact-icon">⌖</span>
+                        <div><strong>Adresse</strong>
+                            <p>Technopôle de Sousse, Tunisie</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail"><span class="contact-icon">@</span>
+                        <div><strong>E-mail </strong>
+                            <p><a href="mailto:contact@novatech.com">contact@novatech.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-detail"><span class="contact-icon">☎</span>
+                        <div><strong>Téléphone </strong>
+                            <p><a href="tel:+21673000000">+216 73 254 040</a></p>
+                        </div>
+                    </div>
+                </div>
+                <form class="form" novalidate action="mailto:contact@novatech.com" method="post" enctype="text/plain">
+                    <div class="form-intro">
+                        <h2>Parlez-nous de votre projet</h2>
+                        <p>Les champs marqués d'un * sont obligatoires.</p>
+                    </div>
+                    <label for="nom">Nom complet *</label>
+                    <input type="text" id="nom" name="Nom"
+                        autocomplete="name" placeholder="Votre nom" required>
+                    <small class="field-error" data-error-for="nom"></small>
+                    
+                    <label for="email">Adresse e-mail*</label>
+                    <input type="email" id="email" name="Email" autocomplete="email"
+                        placeholder="vous@exemple.com" required>
+                    <small class="field-error" data-error-for="email"></small>
+                        
+                    <label for="type">Type de projet *</label>
+                    <select id="type" name="Type de projet" required>
+                        <option value="">Sélectionnez un service</option>
+                        <option>Application web ou mobile</option>
+                        <option>Cloud et DevOps</option>
+                        <option>Données et intelligence artificielle</option>
+                        <option>Autre projet</option>
+                    </select>
+                    <small class="field-error" data-error-for="type"></small>
+                    <label for="message">Votre message *</label><textarea id="message" name="Message" rows="5"
+                        placeholder="Décrivez brièvement votre idée..." required></textarea>
+                    <small class="field-error" data-error-for="message"></small><button class="btn"
+                        type="submit">Préparer le message ↗</button>
+                    <p class="form-feedback" role="status" aria-live="polite"></p>
+                    <p class="form-note">Formulaire de démonstration utilisant votre application e-mail. Il ne stocke ni
+                        n'envoie de données à un serveur.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><a class="logo footer-logo" href="index.html">Nova<span>tech</span></a>
+        <p>Des idées claires. Des solutions solides.</p>
+        <p>© 2026 Novatech · Projet fictif — ISSAT Sousse</p>
+    </footer>
+    <script src="../script.js" defer></script>
+</body>
+
+</html>
