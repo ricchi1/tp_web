@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a36"/><stop offset="1" stop-color="#263d78"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="1010" cy="110" r="210" fill="#4770f5" opacity=".18"/>
+  <circle cx="1080" cy="520" r="250" fill="#62e6bd" opacity=".12"/>
+  <rect x="775" y="155" width="290" height="300" rx="24" fill="#182747" stroke="#536a9d" stroke-width="2"/>
+  <circle cx="810" cy="190" r="7" fill="#ff7979"/><circle cx="835" cy="190" r="7" fill="#ffd166"/><circle cx="860" cy="190" r="7" fill="#62e6bd"/>
+  <path d="M815 250h105M815 290h180M815 330h145M815 370h165" stroke="#62e6bd" stroke-width="9" stroke-linecap="round" opacity=".8"/>
+  <text x="100" y="245" fill="#62e6bd" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="8">STUDIO DIGITAL · SOUSSE</text>
+  <text x="95" y="355" fill="#ffffff" font-family="Arial,sans-serif" font-size="104" font-weight="800">Nova<tspan fill="#62e6bd">tech</tspan></text>
+  <text x="100" y="430" fill="#dce5ff" font-family="Arial,sans-serif" font-size="34">Applications · Cloud · Intelligence artificielle</text>
+  <text x="100" y="535" fill="#aebcda" font-family="Arial,sans-serif" font-size="22">Des idées claires. Des solutions solides.</text>
+</svg>

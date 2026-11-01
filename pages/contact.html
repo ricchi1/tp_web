@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Novatech — Contact</title>
     <meta name="description" content="Contactez Novatech pour parler de votre projet web, cloud ou IA.">
+    <meta name="theme-color" content="#101a36">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Novatech">
+    <meta property="og:title" content="Novatech — Studio digital à Sousse">
+    <meta property="og:description" content="Applications web et mobiles, cloud et intelligence artificielle : transformons vos idées en solutions numériques.">
+    <meta property="og:image" content="https://zyra-tech.hatchable.site/og-image.svg">
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
     <header class="site-header">
         <div class="header-inner"><a class="logo" href="../index.html">Nova<span>tech</span></a><input type="checkbox"
                 id="menu-toggle" class="menu-toggle" aria-label="Ouvrir le menu"><label for="menu-toggle"
@@ -25,7 +36,7 @@
             </nav>
         </div>
     </header>
-    <main class="page-content">
+    <main id="main" class="page-content">
         <section class="page-hero">
             <div class="container">
                 <p class="eyebrow">CONTACT</p>
@@ -57,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="form" novalidate action="mailto:contact@novatech.com" method="post" enctype="text/plain">
+                <form class="form" novalidate action="#" method="post">
                     <div class="form-intro">
                         <h2>Parlez-nous de votre projet</h2>
                         <p>Les champs marqués d'un * sont obligatoires.</p>
@@ -66,7 +77,7 @@
                     <input type="text" id="nom" name="Nom"
                         autocomplete="name" placeholder="Votre nom" required>
                     
-                    <label for="email">Adresse e-mail*</label>
+                    <label for="email">Adresse e-mail *</label>
                     <input type="email" id="email" name="Email" autocomplete="email"
                         placeholder="vous@exemple.com" required>
                         
@@ -80,8 +91,8 @@
                     </select><label for="message">Votre message *</label><textarea id="message" name="Message" rows="5"
                         placeholder="Décrivez brièvement votre idée..." required></textarea><button class="btn"
                         type="submit">Préparer le message ↗</button>
-                    <p class="form-note">Formulaire de démonstration utilisant votre application e-mail. Il ne stocke ni
-                        n'envoie de données à un serveur.</p>
+                    <p class="form-note">Après validation, votre application e-mail s'ouvre avec le message prérempli.
+                        Aucune donnée n'est envoyée ni stockée par ce site.</p>
                 </form>
             </div>
         </section>
