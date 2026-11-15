@@ -16,7 +16,6 @@
     <meta property="og:site_name" content="Novatech">
     <meta property="og:title" content="Novatech — Studio digital à Sousse">
     <meta property="og:description" content="Applications web et mobiles, cloud et intelligence artificielle : transformons vos idées en solutions numériques.">
-    <meta property="og:image" content="https://zyra-tech.hatchable.site/og-image.svg">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -298,7 +297,6 @@
                     <div><strong>08</strong><span>Entreprises accompagnées</span></div>
                     <div><strong>04</strong><span>Talents complémentaires</span></div>
                 </div>
-                <p class="small-note">Chiffres illustratifs utilisés dans le cadre de ce projet étudiant fictif.</p>
             </div>
         </section>
 
@@ -335,7 +333,7 @@
 
                     </div>
 
-                    <a class="btn btn-light" href="pages/contact.html">
+                    <a class="btn btn-light" href="#contact-modal" data-modal-open>
                         Parlons de votre projet ↗
                     </a>
 
@@ -347,6 +345,16 @@
 
     </main>
 
+    <dialog class="cta-modal" id="contact-modal" aria-labelledby="modal-title" aria-describedby="modal-description">
+        <div class="cta-modal-content">
+            <button class="cta-modal-close" type="button" data-modal-close aria-label="Fermer la fenêtre">×</button>
+            <p class="eyebrow">VOTRE PROCHAIN PROJET</p>
+            <h2 id="modal-title">Parlons de votre idée.</h2>
+            <p id="modal-description">Présentez-nous votre projet et nous verrons ensemble comment le concrétiser.</p>
+            <a class="btn" href="pages/contact.html">Accéder au formulaire de contact ↗</a>
+        </div>
+    </dialog>
+
     <!-- Pied de page -->
     <footer class="site-footer">
 
@@ -357,7 +365,7 @@
         <p>Des idées claires. Des solutions solides.</p>
 
         <p>
-            © 2026 Novatech · Projet fictif — ISSAT Sousse
+            © 2026 Novatech · Projet — ISSAT Sousse
         </p>
 
     </footer>
